@@ -1,12 +1,12 @@
 package day37_Inheritance.ScrumMasterTask;
 
 public class Tester extends Employee{
-    
-    public Tester(String name, int age, char gender, int id, String jobTitle, double salary, String companyName) {
-        super(name, age, gender, id, jobTitle, salary, companyName);
+
+    public Tester(String name, int age, char gender, String jobTitle, int id, double salary, String companyName) {
+        super(name, age, gender, jobTitle, id, salary, companyName);
     }
 
-    public void test(){
-        System.out.println(name + " is testing in the code");
+    public void createTicket(){
+        System.out.println(jobTitle + " " + name + "is creating ticket");
     }
 }

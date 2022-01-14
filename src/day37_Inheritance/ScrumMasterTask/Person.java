@@ -12,13 +12,13 @@ public class Person {
     }
 
     public void eat(String food){
-        System.out.println(name + " is eating" + food);
-    }
-    public void drink(String drink){
-        System.out.println(name + " is drinking " + drink);
+        System.out.println(name + " is eating "+food );
     }
 
-    @Override
+    public void drink(String drink){
+        System.out.println(name + " is drinking "+drink);
+    }
+
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
@@ -26,4 +26,6 @@ public class Person {
                 ", gender=" + gender +
                 '}';
     }
+
+
 }
