@@ -14,12 +14,17 @@ public class Palindrome {
         boolean isPalindrome = word.equalsIgnoreCase(reversed);
 
         System.out.println("isPalindrome = " + isPalindrome);
-                
-
-
-
 
     }
 
-
 }
+
+/*
+ "Java" ==> "avaJ" ===> false (not palindrome)
+ "Anna" ==> "annA" ===>true
+ "Level"
+ "Racecar
+ Dad
+ Mom
+ ....
+ */
