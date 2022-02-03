@@ -1,4 +1,4 @@
-package day35_Encapsulation.Encapsulation;
+/* package day35_Encapsulation.Encapsulation;
 
 public class PersonObjects {
     public static void main(String[] args) {
@@ -22,3 +22,6 @@ public class PersonObjects {
     }
 
 }
+
+
+ */
