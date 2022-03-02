@@ -36,7 +36,6 @@ public class Practice {
         for (Map.Entry<String, LocalDate> dataEntry : map.entrySet()) {
             if (dataEntry.getValue().isAfter(LocalDate.of(2014, 12, 31))) {
                 count++;
-
             }
         }
         System.out.println("After 2014 were hired a total of :  " + count);
