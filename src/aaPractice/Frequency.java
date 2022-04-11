@@ -5,7 +5,8 @@ public class Frequency {
     public static void main(String[] args) {
 
        frequency("abcddccccc", 'c');
-        System.out.println(frequency("abcddccccc", 'c'));
+        System.out.println(frequency("abcddccccc", 'c'
+        ));
 
     }
 
